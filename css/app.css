@@ -2,4 +2,27 @@
   border: 1px solid black;
   padding: 2px;
 
+}*/
+ul{
+  list-style-type: none;
+  margin: auto;
+  overflow: hidden;
+  text-align: justify;
+  position: relative;
+  clear: both;
+}
+h1, h3{
+  color:#659140;
+}
+img{
+  padding: 0.5vh;
+}
+
+
+
+/*body{
+  background-color: black;
+}
+.container{
+  background-color: blue;
 }
