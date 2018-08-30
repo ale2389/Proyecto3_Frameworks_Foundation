@@ -19,12 +19,17 @@ img{
 }
 
 .content {
-
-/*background-color: rgba(200, 200, 200, 0.42);
+background-color: rgba(255, 240, 217, 0.82);
 }
 body {
 background-size: cover;
 background-attachment: fixed;
 background-repeat: no-repeat;
 background-image: url("../img/fondo.jpg");
-}*/
+padding-left: 20%;
+padding-right: 20%;
+}
+.der{
+  background-color: rgba(101, 145, 64, 0.82);
+  padding-top: 2%;
+}
