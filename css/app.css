@@ -18,11 +18,13 @@ img{
   padding: 0.5vh;
 }
 
+.content {
 
-
-/*body{
-  background-color: black;
+/*background-color: rgba(200, 200, 200, 0.42);
 }
-.container{
-  background-color: blue;
-}
+body {
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-image: url("../img/fondo.jpg");
+}*/
