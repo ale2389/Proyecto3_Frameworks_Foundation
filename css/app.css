@@ -11,8 +11,11 @@ ul{
   position: relative;
   clear: both;
 }
-h1, h3{
+.verde{
   color:#659140;
+}
+.colort{
+  color: #474446;
 }
 img{
   padding: 0.5vh;
@@ -29,7 +32,18 @@ background-image: url("../img/fondo.jpg");
 padding-left: 20%;
 padding-right: 20%;
 }
-.der{
-  background-color: rgba(101, 145, 64, 0.82);
+.izq{
+  background-color: rgba(228, 200, 223, 0.82);
   padding-top: 2%;
+}
+.primary{
+ color:#FFFFFF!important;
+}
+.enlace{
+  padding-left: 1vw;
+  padding-bottom: 1vh;
+}
+.txtenlace{
+      color: #659140!important;
+      font-weight: bold;
 }
