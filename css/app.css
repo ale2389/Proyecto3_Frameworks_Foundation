@@ -26,7 +26,7 @@ background-color: rgba(255, 240, 217, 0.82);
 }
 body {
 background-size: cover;
-background-attachment: fixed;
+/*background-attachment: fixed;*/
 background-repeat: no-repeat;
 background-image: url("../img/fondo.jpg");
 padding-left: 20%;
@@ -47,3 +47,11 @@ padding-right: 20%;
       color: #659140!important;
       font-weight: bold;
 }
+.filacoment{
+  border-top: 0.5px solid #659140;
+  border-bottom: 0.5px solid #659140;
+}
+.comentario{
+  padding-top:1vh;
+}
+]
