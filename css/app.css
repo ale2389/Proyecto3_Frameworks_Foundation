@@ -1,3 +1,11 @@
+body {
+background-size: cover;
+/*background-attachment: fixed;*/
+background-repeat: no-repeat;
+background-image: url("../img/fondo.jpg");
+padding-left: 20%;
+padding-right: 20%;
+}
 ul{
   list-style-type: none;
   margin: auto;
@@ -15,17 +23,8 @@ ul{
 img{
   padding: 0.5vh;
 }
-
 .content {
 background-color: rgba(255, 240, 217, 0.82);
-}
-body {
-background-size: cover;
-/*background-attachment: fixed;*/
-background-repeat: no-repeat;
-background-image: url("../img/fondo.jpg");
-padding-left: 20%;
-padding-right: 20%;
 }
 .izq{
   background-color: rgba(228, 200, 223, 0.82);
@@ -42,36 +41,26 @@ padding-right: 20%;
       color: #659140!important;
       font-weight: bold;
 }
-.filacoment{
-  border-top: 0.5px solid #659140;
-  border-bottom: 0.5px solid #659140;
-}
 .comentario{
   padding-top:1vh;
 }
 .fondo{
-  background-color: blue;
+  background-color: rgba(235, 128, 85, 0.3);
 }
+.fondo1{
+  background-color: rgba(197, 105, 197, 0.3);
+}
+div{
+  padding: 0.5vh 0.5vw;
+}
+.avtr{
+  width: 100%;
+}
+/*tablets*/
 @media only screen and (max-width: 768px){
 
-  .slogan{
-    text-align: center;
-    margin-top: 8vh;
-    }
-    div{
-      padding: 0.5vh 0.5vw;
-    }
 }
 /*smarphones*/
 @media only screen and (max-width: 600px){
-  .slogan{
-    text-align: center;
-    margin-top: 4vh;
-    }
-    div{
-      padding: 0.5vh 0.5vw;
-    }
-    .btn{
-    width: 10%;
-    }
+
 }
